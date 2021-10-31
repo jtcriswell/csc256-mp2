@@ -58,4 +58,4 @@ The contents of the directory floppy should appear in /mnt.
 Be sure to use the following command to unmount the hard disk device before
 shutting down the virtual machine:
 
-o unmount /mnt
+o umount /mnt
