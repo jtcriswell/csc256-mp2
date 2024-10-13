@@ -57,6 +57,6 @@ struct prinfo {
 
 
 SYSCALL_DEFINE1(prinfo, struct prinfo *, p) {
-	printk ("CSC256: Hi!\n");
+	printk ("CSC256: Hello from Kernel Space!\n");
 	return 0;
 }
