@@ -59,3 +59,10 @@ Be sure to use the following command to unmount the hard disk device before
 shutting down the virtual machine:
 
 o unmount /mnt
+
+# Powering the Virtual Machine Down
+
+To power down the virtual machine, use the poweroff command.  This will cause
+the Linux kernel to shutdown and then cause QEMU to terminate:
+
+o poweroff
