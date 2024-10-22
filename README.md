@@ -46,6 +46,10 @@ residing on the image.  Alternatively, students can provide the pathname to
 their Linux kernel, and runqemu.sh will boot their kernel instead.  The kernel
 is in the file linux-5.4.284/arch/x86_64/boot/bzImage.
 
+Therefore, the command to launch QEMU running your kernel is:
+
+o sh runqemu.sh linux-5.4.284/arch/x86_64/boot/bzImage
+
 # Importing files into the QEMU virtual machine
 
 Files in the floppy directory will appear as a hard disk within the
@@ -58,7 +62,7 @@ The contents of the directory floppy should appear in /mnt.
 Be sure to use the following command to unmount the hard disk device before
 shutting down the virtual machine:
 
-o unmount /mnt
+o umount /mnt
 
 # Powering the Virtual Machine Down
 
